@@ -68,12 +68,13 @@ The Terraform code will deliver resources to the following configuration aspects
 * DynamoDB: Table configuration
 * CloudWatch: Alert metrics configuration
 
+To define infrastructure:
 
 * Get into \backend\terraform directory
 
 * Initialize the working directory for Terraform on our workstation
 ```
-teraform init
+terraform init
 ```
 
 * Deploy the application environment
