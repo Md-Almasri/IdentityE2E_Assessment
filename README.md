@@ -131,7 +131,7 @@ The frontend needs to be deployed in the same way we deployed the backend taking
 
 The solution would allow us to add more application by running more images and deploy them using AWS.
 
-AWS provides a number of features that enable customers to easily encrypt data and manage the keys. All AWS services offer the ability to encrypt data at rest and in transit. [AWS KMS](https://docs.aws.amazon.com/whitepapers/latest/logical-separation/encrypting-data-at-rest-and--in-transit.html) integrates with the majority of services to let customers control the lifecycle of and permissions on the keys used to encrypt data on the customer’s behalf.
+AWS provides a number of features that enable customers to easily encrypt data and manage the keys. All AWS services offer the ability to encrypt data at rest and in transit. [AWS KMS](https://docs.aws.amazon.com/whitepapers/latest/logical-separation/encrypting-data-at-rest-and--in-transit.html) gives you centralized control over the cryptographic keys used to protect your data. it integrates with the majority of services to let customers control the lifecycle of and permissions on the keys used to encrypt data on the customer’s behalf.
 
 [AWS CodePipeline](https://aws.amazon.com/codepipeline/) is a fully managed continuous delivery service. It automates the build, test, and deploy phases of release process every time there is a code change, based on the release model we define.
 
